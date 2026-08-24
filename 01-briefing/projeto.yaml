@@ -1,0 +1,94 @@
+empresa:
+  nome: "Matheus Willers | Instrutor de Trânsito"
+  segmento: "Instrutor de Trânsito para Categoria B e Treinamento de Condutores Habilitados"
+  cidade: "Estância Velha"
+  estado: "RS"
+  pais: "BR"
+  telefone: "5551999045133"
+  whatsapp: "5551999045133"
+  endereco: ""
+  horario: "Segunda a sexta-feira, das 06h às 22h; sábados, das 08h às 20h; domingos, das 08h às 17h"
+  bairros_atendidos: "Estância Velha, Novo Hamburgo, Ivoti, Portão e Campo Bom"
+  google_maps_iframe: ""
+
+logo_path: "/assets/img/logo.png"
+
+redes_sociais:
+  instagram: "@instrutor.matheuswillers"
+  facebook: ""
+
+branding:
+  tom: "Moderno, profissional, acolhedor e didático, com linguagem simples e próxima. A comunicação deve transmitir segurança, paciência, confiança e credibilidade."
+  paleta:
+    primaria: ""
+    secundaria: ""
+    fundo: "#F9FAFB"
+    texto: "#111827"
+
+seo:
+  palavra_chave_principal: "Instrutor de Trânsito em Estância Velha"
+  palavras_secundarias:
+    - "Aulas de direção em Estância Velha"
+    - "Aulas para primeira CNH Categoria B"
+    - "Aulas para habilitados"
+    - "Instrutor de direção para habilitados"
+    - "Aulas para perder o medo de dirigir"
+    - "Treinamento para condutores habilitados"
+    - "Aulas de direção em Novo Hamburgo"
+    - "Aulas de direção em Ivoti"
+    - "Aulas de direção em Portão"
+    - "Aulas de direção em Campo Bom"
+    - "Aulas em carro manual"
+    - "Aulas em carro automático"
+    - "Preparação para prova prática de direção"
+    - "Aperfeiçoamento para motoristas"
+  area_atuacao: "Estância Velha, Novo Hamburgo, Ivoti, Portão e Campo Bom - RS"
+
+servicos:
+  - nome: "Aulas para Primeira CNH Categoria B"
+    descricao: "Aulas de direção voltadas para alunos em processo de primeira habilitação na Categoria B, com acompanhamento individualizado e preparação prática."
+    slug: "aulas-primeira-cnh-categoria-b"
+
+  - nome: "Aulas para Condutores Habilitados"
+    descricao: "Treinamento para pessoas que já possuem CNH, mas desejam ganhar mais prática, confiança e autonomia ao dirigir."
+    slug: "aulas-condutores-habilitados"
+
+  - nome: "Treinamento para Perder o Medo de Dirigir"
+    descricao: "Aulas adaptadas para quem sente medo, ansiedade ou insegurança no trânsito, respeitando o ritmo e as dificuldades de cada aluno."
+    slug: "perder-medo-de-dirigir"
+
+  - nome: "Aulas em Carro Manual e Automático"
+    descricao: "Treinamento prático em veículos com câmbio manual ou automático, de acordo com a necessidade e o objetivo do aluno."
+    slug: "aulas-carro-manual-automatico"
+
+  - nome: "Aulas de Aperfeiçoamento"
+    descricao: "Treinamentos direcionados para dificuldades específicas como baliza, estacionamento, trânsito intenso, subidas e outras situações reais do dia a dia."
+    slug: "aulas-aperfeicoamento-direcao"
+
+  - nome: "Aluguel de Veículo para Prova Prática"
+    descricao: "Disponibilização de veículo para realização da prova prática de direção, conforme disponibilidade e agendamento."
+    slug: "aluguel-veiculo-prova-pratica"
+
+diferenciais:
+  - "Experiência como instrutor de trânsito desde 2017"
+  - "Trajetória profissional na área de trânsito iniciada em 2016"
+  - "Cinco anos de atuação em CFC de Estância Velha"
+  - "Instrutor credenciado pelo DETRAN"
+  - "Atendimento paciente e individualizado"
+  - "Aulas adaptadas ao nível e às dificuldades de cada aluno"
+  - "Treinamento em situações reais do dia a dia"
+  - "Aulas em veículos manuais e automáticos"
+  - "Ampla flexibilidade de horários"
+  - "Atendimento para primeira habilitação, recém-habilitados e condutores experientes que desejam recuperar a confiança"
+
+prova_social:
+  - "Avaliações e depoimentos positivos de alunos"
+  - "Experiência profissional como instrutor desde 2017"
+  - "Cinco anos de atuação em CFC de Estância Velha"
+  - "Nota média e quantidade de avaliações no Google a confirmar"
+
+cta_principal: "Falar no WhatsApp"
+
+dominio: ""
+
+tipo_site: "one-page"
