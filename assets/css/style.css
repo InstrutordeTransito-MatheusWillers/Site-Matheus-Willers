@@ -1,0 +1,83 @@
+/* ============================================================
+   STYLE.CSS — Matheus Willers | Instrutor de Trânsito
+   Complemento ao Tailwind CSS
+============================================================ */
+
+/* --- SMOOTH SCROLL --- */
+html {
+  scroll-behavior: smooth;
+}
+
+/* --- SCROLL OFFSET para header sticky --- */
+section[id] {
+  scroll-margin-top: 80px;
+}
+
+/* --- SELEÇÃO DE TEXTO --- */
+::selection {
+  background-color: #1F1F1F;
+  color: #fff;
+}
+
+/* --- TRANSIÇÕES GLOBAIS --- */
+a, button {
+  transition: all 0.2s ease;
+}
+
+/* --- SEÇÕES ESCTURAS BG FALLBACK --- */
+#inicio {
+  background-color: #F3F3F1;
+}
+
+#habilitados,
+#contato {
+  background-color: #1F1F1F;
+}
+
+/* --- CARD HOVER LIFT --- */
+article.bg-brand-white {
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+article.bg-brand-white:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+}
+
+/* --- BOTÃO WHATSAPP FLUTUANTE (ÚNICO COM VERDE) --- */
+#whatsapp-float {
+  animation: pulse-green 2.5s infinite;
+}
+
+@keyframes pulse-green {
+  0%, 100% {
+    box-shadow: 0 0 0 0 rgba(34, 197, 94, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 0 12px rgba(34, 197, 94, 0);
+  }
+}
+
+/* --- ACCORDION TRANSITION --- */
+[x-show][x-transition] {
+  transition: all 0.2s ease;
+}
+
+/* --- IMAGENS --- */
+img {
+  display: block;
+}
+
+/* --- FOCUS RING ACESSIBILIDADE --- */
+a:focus-visible,
+button:focus-visible {
+  outline: 2px solid #1F1F1F;
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+/* --- PRINT --- */
+@media print {
+  #whatsapp-float,
+  #header { display: none; }
+}

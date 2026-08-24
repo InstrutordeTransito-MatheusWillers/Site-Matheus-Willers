@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+
+# Permitir crawlers de IA (visibilidade em buscas com IA)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+Sitemap: https://matheuswillers.com.br/sitemap.xml
