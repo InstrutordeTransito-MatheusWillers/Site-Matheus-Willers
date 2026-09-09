@@ -118,7 +118,7 @@ button:focus-visible {
   }
 
   #inicio p.flex {
-    justify-content: center;
+    justify-content: flex-start;
   }
 
   /* SEÇÃO SOBRE */
