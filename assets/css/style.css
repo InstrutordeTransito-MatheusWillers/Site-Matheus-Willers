@@ -111,14 +111,6 @@ button:focus-visible {
     overflow-wrap: break-word;
   }
 
-  #inicio img {
-    width: 100%;
-    height: auto;
-    max-height: 280px;
-    object-fit: cover;
-    object-position: top;
-  }
-
   #inicio .mb-5 a {
     width: 100%;
     display: flex;
@@ -126,7 +118,7 @@ button:focus-visible {
   }
 
   #inicio p.flex {
-    justify-content: flex-start;
+    justify-content: center;
   }
 
   /* SEÇÃO SOBRE */
