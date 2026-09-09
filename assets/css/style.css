@@ -99,29 +99,34 @@ button:focus-visible {
   }
 
   /* HERO */
-  #inicio .grid {
-    grid-template-columns: 1fr !important;
-    gap: 2rem;
+  #inicio {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
   }
 
   #inicio h1 {
-    font-size: 1.75rem;
+    font-size: 1.625rem;
     line-height: 1.2;
+    word-break: break-word;
+    overflow-wrap: break-word;
   }
 
-  #inicio .mb-6 a {
+  #inicio img {
+    width: 100%;
+    height: auto;
+    max-height: 280px;
+    object-fit: cover;
+    object-position: top;
+  }
+
+  #inicio .mb-5 a {
     width: 100%;
     display: flex;
     justify-content: center;
   }
 
   #inicio p.flex {
-    justify-content: center;
-  }
-
-  /* Imagem hero no mobile — altura menor */
-  #inicio .h-\[320px\] {
-    height: 220px !important;
+    justify-content: flex-start;
   }
 
   /* SEÇÃO SOBRE */
