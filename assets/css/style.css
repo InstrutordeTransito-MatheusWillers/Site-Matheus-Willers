@@ -66,6 +66,21 @@ article.bg-brand-white:hover {
 /* --- IMAGENS --- */
 img {
   display: block;
+  max-width: 100%;
+}
+
+.hero-top-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: center;
+}
+
+.sobre-img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: 50% 25%; /* Alinhamento focado no rosto e tronco superior */
 }
 
 /* --- FOCUS RING ACESSIBILIDADE --- */
