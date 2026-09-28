@@ -11,4 +11,4 @@ Allow: /
 User-agent: PerplexityBot
 Allow: /
 
-Sitemap: https://matheuswillers.com.br/sitemap.xml
+Sitemap: https://instrutormatheuswillers.com.br/sitemap.xml
